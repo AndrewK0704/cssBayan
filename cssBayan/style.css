@@ -46,6 +46,7 @@ body{
 
 .icon{
     transition: 0.5s;
+    display: none;
 }
 
 .click{
@@ -113,6 +114,10 @@ body{
     transform: rotate(45deg);
 }
 
+.accordion:hover .icon{
+    display: block;
+}
+
 @media (max-width: 820px) {
 
     h1{
@@ -143,7 +148,3 @@ body{
         margin: 0.5em;
     }
 }
-
-
-
-
